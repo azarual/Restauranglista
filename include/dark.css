@@ -1,0 +1,14 @@
+
+body {
+	margin: 0 auto;
+	background-color: #111;
+	font-size: 14px;
+	color: #fff;
+}
+
+th {
+	border: 5px solid #ccc;
+	font-size: 20px;
+}
+
+

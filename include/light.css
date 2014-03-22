@@ -1,0 +1,52 @@
+a {
+	color: #575;
+}
+
+html {
+	background-color: #ffe;
+}
+
+body {
+	background-color: #fff;
+	color: #111;
+	font-size: 12px;
+	font-family: arial;
+	margin: 20px auto;
+	padding: 10px;
+	width: 800px;
+	text-align: center;
+	min-height: 200px;
+	border: 1px solid #000;
+	
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #ffffff),color-stop(1, #e0f8ff)); /* Safari & Chrome */background-image: -moz-linear-gradient(top,#e0f8ff,#ffffff); /* Firefox 3.6 */filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e0f8ff', endColorstr='#ffffff'); /* IE6 & IE7 */-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#e0f8ff', endColorstr='#ffffff')"; /* IE8 */
+	
+	-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+th {
+	background-color: #efe;
+	border: 1px solid #eee;
+	font-size: 20px;
+	padding: 3px 10px;
+}
+
+label {
+	margin: 0 5px;
+}
+
+div>a {
+	font-size: 16px;
+	margin: 20px 3px;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#recaptcha_area,
+#openid_form {
+	margin: 0 auto;
+}
